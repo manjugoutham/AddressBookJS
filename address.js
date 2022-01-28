@@ -252,3 +252,17 @@ function searchByCityOrState(contactArray,cityorstate){
     }
 }
 console.log(searchByCityOrState(array,'Banglore'));
+
+/**
+ * Ability to view Persons by City or State
+ */
+//........UC9...............
+console.log("Presentinstate uc9");
+    function presentInState(contactArray,cityorstate){
+        if(cityorstate == "Karnataka"){
+            console.log("Contact by state : ");
+           return contactArray.filter(firstName =>firstName[7] == cityorstate);
+    
+        }
+  }
+ console.log(presentInState(array,"Karnataka"));
