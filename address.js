@@ -266,3 +266,24 @@ console.log("Presentinstate uc9");
         }
   }
  console.log(presentInState(array,"Karnataka"));
+
+
+
+
+/** 
+ * Ability to get number of contact persons i.e. count by City or State - Search Result will show count by city.
+ * @param {*} cityName 
+ * @param {*} stateName
+ * It returs the number of contact persons in city and state.
+ * 
+ */
+
+ console.log("uc10");
+    function presentInState(contactArray,cityorstate){
+        if(cityorstate == "Karnataka"){
+            console.log("Contact by state : ");
+           return contactArray.filter(firstName =>firstName[7] == cityorstate);
+    
+        }
+  }
+ console.log(presentInState(array,"Karnataka").length);
