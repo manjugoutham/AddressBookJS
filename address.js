@@ -213,3 +213,12 @@ function deleteperson()
 }
 deleteperson();
 console.log(array);
+
+//..........UC6.........
+
+function countContacts(){
+     let count= array.reduce((x) => x).length;
+     console.log("Number of contacts is: " +count);
+    console.count(count);
+ }
+ countContacts();
