@@ -238,3 +238,17 @@ let duplicates = map.filter((firstName, index) => {
 }
 duplicatevalues();
 //console.log(map);
+
+/**
+ * Ability to view Persons by City or State
+ */
+
+console.log("...........UC8.......");
+function searchByCityOrState(contactArray,cityorstate){
+    if(cityorstate == "Banglore"){
+        console.log("Contact by city");
+       return contactArray.filter(firstName =>firstName[6] == cityorstate);
+
+    }
+}
+console.log(searchByCityOrState(array,'Banglore'));
