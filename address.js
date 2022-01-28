@@ -14,7 +14,6 @@
  */
  function addPerson(firstName, lastName, email, number, zipcode, address, city, state) {
        console.log(firstName + "\n" + lastName + "\n" + email + "\n" + number + "\n" + zipcode + "\n" + address + "\n" + city + "\n" + state);
-   // return [firstName, lastName, email, number, zipcode, address, city, state];
 }
 
 addPerson("Goutham", "Raj", "gouthamy21@gmail.com", "8105457612", 560077, "near RTNagar", "Bengaluru", "Karnataka")
