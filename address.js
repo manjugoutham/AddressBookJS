@@ -278,12 +278,11 @@ console.log("Presentinstate uc9");
  * 
  */
 
- console.log("uc10");
     function presentInState(contactArray,cityorstate){
         if(cityorstate == "Karnataka"){
             console.log("Contact by state : ");
            return contactArray.filter(firstName =>firstName[7] == cityorstate);
     
         }
-  }
- console.log(presentInState(array,"Karnataka").length);
+    }
+    console.log(presentInState(array,"Karnataka").length);
