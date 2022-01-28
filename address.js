@@ -155,3 +155,28 @@ if(stateregex.test(state))
 }
 Validateaddress("Karnataka");
 Validateaddress("Karnataka");
+
+
+/**
+ * Ability to create a New Address Book
+ * array and add new Contacts to it
+ * @param {*} firstName 
+ * @param {*} lastName 
+ * @param {*} email 
+ * @param {*} number 
+ * @param {*} zipcode 
+ * @param {*} address 
+ * @param {*} city 
+ * @param {*} state 
+ * @returns 
+ */
+function addPerson(firstName, lastName, email, number, zipcode, address, city, state) {
+    // if (Firstnameformat.test(firstName) && Lastnameformat.test(lastName) && emailformat.test(email) && Phonenumber.test(number) && zipnumber.test(zipcode) && addressregex.test(address) && cityregex.test(city) && stateregex.test(state)) {
+    //    console.log(firstName + "\n" + lastName + "\n" + email + "\n" + number + "\n" + zipcode + "\n" + address + "\n" + city + "\n" + state);
+    return [firstName, lastName, email, number, zipcode, address, city, state];
+    }
+    let array = new Array(addPerson("Harish", "Raj", "gouthamy21@gmail.com", "8105457612", 560077, "near RTNagar", "Kolar", "Karnataka"),addPerson("Goutham", "Raj", "gouthamy21@gmail.com", "8105457612", 560077, "near RTNagar", "Banglore", "Karnataka"));
+    console.log(array);
+
+
+ 
