@@ -180,3 +180,20 @@ function addPerson(firstName, lastName, email, number, zipcode, address, city, s
 
 
  
+/**
+ * 
+ * @purpose : Ability to find existing contact person using their name and edit it 
+ */    
+//......UC4...........
+console.log("edit........");
+function editperson(Array,firstName,newFirstName)
+{
+    for (let index = 0; index < Array.length; index++) {
+        const element = Array[index];
+            if(element[index] == firstName){
+            element[index] = newFirstName;
+            }            
+    }  
+}
+editperson(array,"Harish","Smith");
+console.log(array);
