@@ -285,3 +285,16 @@ console.log("Presentinstate uc9");
         }
     }
     console.log(presentInState(array,"Karnataka").length);
+
+
+    /**
+     * Ability to sort the entries in the address book alphabetically by Person’s name
+     * 
+     * @returns It returns the sorted list in address book.
+     */
+
+    console.log("Before Sorting : ",array);
+    array.sort(function(a,b){
+   return a[0].localeCompare(b[0]);
+    })
+    console.log("After Sorting : ",array);
