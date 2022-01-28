@@ -222,3 +222,19 @@ function countContacts(){
     console.count(count);
  }
  countContacts();
+
+/**
+ * Ability to ensure there is no Duplicate Entry of the same Person in the Address Book
+ */
+
+ function duplicatevalues()
+ {
+ console.log("Using HashMap");
+var map = new Map();
+map = [array];
+let duplicates = map.filter((firstName, index) => {
+  return map.indexOf(firstName) !== index;
+});
+}
+duplicatevalues();
+//console.log(map);
