@@ -295,6 +295,18 @@ console.log("Presentinstate uc9");
 
     console.log("Before Sorting : ",array);
     array.sort(function(a,b){
-   return a[0].localeCompare(b[0]);
+   return a[0].localeCompare(b[0]); 
+    })
+    console.log("After Sorting : ",array);
+
+    /**
+     * Ability to sort the entries in the address book by City, State, or Zip
+     *
+     */
+    console.log("uc12......");
+    console.log("Before Sorting : ",array);
+    array.sort(function(a,b){
+    // return a[6].localeCompare(b[6]);
+    return a[7].localeCompare(b[7]);    
     })
     console.log("After Sorting : ",array);
