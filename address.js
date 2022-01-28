@@ -277,7 +277,6 @@ console.log("Presentinstate uc9");
  * It returs the number of contact persons in city and state.
  * 
  */
-
     function presentInState(contactArray,cityorstate){
         if(cityorstate == "Karnataka"){
             console.log("Contact by state : ");
