@@ -197,3 +197,19 @@ function editperson(Array,firstName,newFirstName)
 }
 editperson(array,"Harish","Smith");
 console.log(array);
+
+//.........UC5........
+
+/**
+ * Ability to find a person with name delete it from the array
+ */
+console.log("delete..........");
+function deleteperson()
+{
+    var originaldata = array[0].indexOf("Harish");
+    console.log("...........*.......",originaldata);
+    array.splice(originaldata,1);
+    //console.log(array);  
+}
+deleteperson();
+console.log(array);
